@@ -1,11 +1,18 @@
 name: "{{slug}}"
+{{# category}}
+category: {{category}}
+{{/category}}
 {{# inputs}}
 inputs:
-  -
+  first_input:
+    default: "Example text"
 {{/inputs}}
 {{# outputs}}
 outputs:
-  -
+  variables:
+    first_input:
+      example: "This variable has a default value."
+      info: "Tooltip #1"
 {{/outputs}}
 {{# executeCommands}}
 execute_commands:

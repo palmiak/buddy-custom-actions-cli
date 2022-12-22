@@ -22,6 +22,7 @@ const chalk = require('chalk');
         .copy(inDir, outDir)
         .then(async () => {
             console.log();
-            console.log(chalk.green.inverse.bold(' Done ') + ' custom action ' + chalk.bold(data.name) + ' was created')
+            console.log(chalk.green.inverse.bold(' Done ') + ' custom action ' + chalk.bold(data.name) + ' was created');
+            console.log('For more information visit https://buddy.works/docs/pipelines/custom-actions');
         })
 })();

@@ -5,13 +5,16 @@ const slug = require('slug');
 module.exports = async () => {
     const name = await ask({
         message: "Action name",
-        hint: "",
         type: 'input'
     });
 
     const description = await ask({
         message: "Action description",
         hint: "(it will be used in the readme file)",
+    });
+
+    const category = await ask({
+        message: "Add category",
     });
 
     const dockerImage = await ask({
@@ -57,9 +60,10 @@ module.exports = async () => {
     const data = {
         name,
         description,
+        category,
         dockerImage,
         dockerVersion,
-        slug: slug(name, '_'),
+        slug: slug(name, {replacement:'_', lower:false}),
         outputs,
         inputs,
         executeCommands,

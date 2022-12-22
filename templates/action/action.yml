@@ -1,0 +1,25 @@
+name: "{{slug}}"
+{{# inputs}}
+inputs:
+  -
+{{/inputs}}
+{{# outputs}}
+outputs:
+  -
+{{/outputs}}
+{{# executeCommands}}
+execute_commands:
+  -
+{{/executeCommands}}
+{{# volumeMapping }}
+volume_mappings: ""
+{{/volumeMapping}}
+{{# workingDirectory}}
+working_directory: ""
+{{/workingDirectory}}
+{{# cachedDirectories}}
+cached_dirs:
+  -
+{{/ cachedDirectories}}
+docker_image_name: "{{{dockerImage}}}"
+docker_image_tag: "{{{dockerVersion}}}"

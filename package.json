@@ -1,0 +1,23 @@
+{
+  "name": "buddy-custom-action",
+  "version": "1.0.0",
+  "description": "Create custom actions for Buddy",
+  "bin": {
+    "buddy-custom-action": "index.js"
+  },
+  "author": "Maciek Palmowski",
+  "license": "MIT",
+  "dependencies": {
+    "await-to-js": "^3.0.0",
+    "chalk": "^4.1.2",
+    "cli-alerts": "^1.2.2",
+    "cli-handle-error": "^4.4.0",
+    "cli-handle-unhandled": "^1.1.1",
+    "cli-welcome": "^2.2.2",
+    "enquirer": "^2.3.6",
+    "mustache": "^4.2.0",
+    "path": "^0.12.7",
+    "scaffold-generator": "^3.0.5",
+    "slug": "^8.2.2"
+  }
+}

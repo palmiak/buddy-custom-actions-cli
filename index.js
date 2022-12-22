@@ -12,7 +12,7 @@ const chalk = require('chalk');
     const data = await questions();
     
     const inDir = path.join(__dirname, 'templates', 'action');
-    const outDir = path.join(process.cwd(), '.buddy', 'actions', data.slug);
+    const outDir = path.join(process.cwd(), '.buddy', 'actions', data.folderName);
 
     new Scaffold({
         data: data,

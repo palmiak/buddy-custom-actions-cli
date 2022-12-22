@@ -64,6 +64,7 @@ module.exports = async () => {
         dockerImage,
         dockerVersion,
         slug: slug(name, {replacement:'_', lower:false}),
+        folderName: slug(name, {replacement:'-', lower:true}),
         outputs,
         inputs,
         executeCommands,

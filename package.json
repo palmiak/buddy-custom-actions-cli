@@ -1,11 +1,27 @@
 {
   "name": "buddy-custom-action",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Create custom actions for Buddy",
   "bin": {
     "buddy-custom-action": "index.js"
   },
-  "author": "Maciek Palmowski",
+  "keywords": [
+    "buddy",
+    "CI/CD",
+    "continuous integration"
+  ],
+  "author": {
+    "name": "Maciek Palmowski",
+    "email": "m.palmowski@freshpixels.pl",
+    "url": "https://maciekpalmowski.dev/"
+  },
+  "bugs": {
+    "url": "https://github.com/palmiak/buddy-custom-action/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/palmiak/buddy-custom-action"
+  },
   "license": "MIT",
   "dependencies": {
     "await-to-js": "^3.0.0",

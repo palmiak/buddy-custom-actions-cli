@@ -1,6 +1,6 @@
 {
   "name": "buddy-custom-action",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Create custom actions for Buddy",
   "bin": {
     "buddy-custom-action": "index.js"
@@ -16,11 +16,11 @@
     "url": "https://maciekpalmowski.dev/"
   },
   "bugs": {
-    "url": "https://github.com/palmiak/buddy-custom-action/issues"
+    "url": "https://github.com/palmiak/buddy-custom-actions-cli/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/palmiak/buddy-custom-action"
+    "url": "https://github.com/palmiak/buddy-custom-actions-cli"
   },
   "license": "MIT",
   "dependencies": {

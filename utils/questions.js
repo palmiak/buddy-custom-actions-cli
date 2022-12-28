@@ -19,7 +19,7 @@ module.exports = async () => {
 
     const dockerImage = await ask({
         message: "Select docker image",
-        initial: 'Ubuntu'
+        initial: 'ubuntu'
     });
 
     const dockerVersion = await ask({

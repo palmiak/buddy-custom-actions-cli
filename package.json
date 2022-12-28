@@ -1,6 +1,6 @@
 {
   "name": "buddy-custom-action",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Create custom actions for Buddy",
   "bin": {
     "buddy-custom-action": "index.js"
